@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Grading System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Grading System</h1>
+        <form id="gradingForm">
+            <label for="textInput">Text Input:</label>
+            <textarea id="textInput" name="textInput" rows="4" cols="50"></textarea>
+
+            <label for="imageInput">Image Input:</label>
+            <input type="file" id="imageInput" name="imageInput" accept="image/*">
+
+            <label for="codeInput">Code Input:</label>
+            <textarea id="codeInput" name="codeInput" rows="4" cols="50"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
